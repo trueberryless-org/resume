@@ -5,7 +5,7 @@
       "type": "lucide",
       "name": "cake"
     },
-    "text": "1 year old"
+    "text": "20 years old"
   },
   {
     "id": 2,
@@ -13,7 +13,14 @@
       "type": "lucide",
       "name": "earth"
     },
-    "type": "lucide",
-    "text": "Made in Germany"
+    "text": "Lives in Austria"
+  },
+  {
+    "id": 3,
+    "icon": {
+      "type": "lucide",
+      "name": "brain-circuit"
+    },
+    "text": "6 years of experience"
   }
 ]

@@ -12,13 +12,13 @@ import { getEntry } from 'astro:content';
 import { render } from 'astro:content';
 import { name, openGraph } from 'spectre:globals';
 
-const [posts, projects, about, workExperience, quickInfo, socials] = await Promise.all([
-	getCollection('posts', (post) => post.data.draft !== true),
-	getCollection('projects'),
+const [about, workExperience, educationExperience, quickInfo, socials, skills] = await Promise.all([
 	getEntry('other', 'about'),
 	getCollection('workExperience'),
+	getCollection('educationExperience'),
 	getCollection('quickInfo'),
-	getCollection('socials')
+	getCollection('socials'),
+	getCollection('skills')
 ]);
 
 // biome-ignore lint/style/noNonNullAssertion: Should always be defined.
@@ -56,6 +56,20 @@ const { Content: About } = await render(about!);
 				))}
 			</ul>
 		</Card>
+		<Card>
+			<h3 class="no-mt">Skills</h3>
+			<ul class="skills-list">
+				{skills.map((item) => (
+					<li>
+            <div>
+              <Icon type={item.data.icon.type} name={item.data.icon.name as any} width={24} height={24} class='glow-icon' />
+              <span>{item.data.category}</span>
+            </div>
+            <div>{item.data.skills}</div>
+					</li>
+				))}
+			</ul>
+		</Card>
 	</div>
 	<div class="layout-grid-right" slot="right">
 		<Card>
@@ -69,49 +83,49 @@ const { Content: About } = await render(about!);
 		</Card>
 		<Card>
 			<div class="header-container">
-				<Icon type='lucide' name="rss" width={24} height={24} class='glow-icon' />
-				<h2>Latest Posts</h2>
-			</div>
-			<div class="content-container">
-				{posts.sort((a, b) => b.data.createdAt.getTime() - a.data.createdAt.getTime()).slice(0, 2).map((post) => (
-					<a href={`/blog/${post.id}`} class="post-container">
-						<div class="post-header">
-							<h3>{post.data.title}</h3>
-							<span class="post-date">{post.data.createdAt.toLocaleDateString()}</span>
-						</div>
-						<span>{post.data.description}</span>
-					</a>
-				))}
-			</div>
-		</Card>
-		<Card>
-			<div class="header-container">
-				<Icon type='lucide' name="folder-git" width={24} height={24} class='glow-icon' />
-				<h2>Latest Projects</h2>
-			</div>
-			<div class="content-container">
-				{projects.sort((a, b) => b.data.date.getTime() - a.data.date.getTime()).slice(0, 2).map((project) => (
-					<a href={`/projects/${project.id}`} class="post-container">
-						<div class="post-header">
-							<h3>{project.data.title}</h3>
-							<span class="post-date">{project.data.date.toLocaleDateString()}</span>
-						</div>
-						<span>{project.data.description}</span>
-					</a>
-				))}
-			</div>
-		</Card>
-		<Card>
-			<div class="header-container">
 				<Icon type='lucide' name="briefcase-business" width={24} height={24} class='glow-icon' />
 				<h2>Work Experience</h2>
 			</div>
 			<div class="work-experience-container">
 				{workExperience.reverse().map((entry) => (
 					<div class="work-experience-entry">
-						<span class="work-experience-duration">{entry.data.duration}</span>
 						<h3 class="work-experience-company">{entry.data.company}</h3>
-						<span class="work-experience-role">{entry.data.title}</span>
+						<div class="location-container">
+              {entry.data.duration.includes("-") ? (
+                <Icon type='lucide' name="calendar-range" width={18} height={18} class='glow-icon' />
+              ) : (
+                <Icon type='lucide' name="calendar" width={18} height={18} class='glow-icon' />
+              )}
+              <span class="work-experience-duration">{entry.data.duration}</span>
+              <span/>
+              <Icon type='lucide' name="map-pin" width={18} height={18} class='glow-icon' />
+              <span class="work-experience-duration">{entry.data.location}</span>
+            </div>
+						<p class="work-experience-desc">{entry.data.description}</p>
+					</div>
+				))}
+			</div>
+		</Card>
+		<Card>
+			<div class="header-container">
+				<Icon type='lucide' name="school" width={24} height={24} class='glow-icon' />
+				<h2>Education</h2>
+			</div>
+			<div class="work-experience-container">
+				{educationExperience.reverse().map((entry) => (
+					<div class="work-experience-entry">
+						<h3 class="work-experience-company">{entry.data.company}</h3>
+						<div class="location-container">
+              {entry.data.duration.includes("-") ? (
+                <Icon type='lucide' name="calendar-range" width={18} height={18} class='glow-icon' />
+              ) : (
+                <Icon type='lucide' name="calendar" width={18} height={18} class='glow-icon' />
+              )}
+              <span class="work-experience-duration">{entry.data.duration}</span>
+              <span/>
+              <Icon type='lucide' name="map-pin" width={18} height={18} class='glow-icon' />
+              <span class="work-experience-duration">{entry.data.location}</span>
+            </div>
 						<p class="work-experience-desc">{entry.data.description}</p>
 					</div>
 				))}

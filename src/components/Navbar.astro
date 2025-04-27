@@ -6,7 +6,7 @@ const path = Astro.url.pathname;
 ---
 <nav>
   <a class="site-title" href="/">{name}</a>
-  <ul>
+  <!-- <ul>
     <li>
       <a href="/blog" class:list={{ active: path === '/blog' }}>Blog</a>
     </li>
@@ -19,7 +19,7 @@ const path = Astro.url.pathname;
       <input id="search" type="text" placeholder="Search (Ctrl+K)" />
       <div id="search-results"></div>
     </li>
-  </ul>
+  </ul> -->
   <button class="mobile-nav-toggle">
     <Icon type="lucide" name="menu" width={24} height={24} class="menu-closed" />
     <Icon type="lucide" name="x" width={24} height={24} class="menu-open" />

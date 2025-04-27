@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "duration": "2011-2015",
+    "company": "Primary School",
+    "location": "Sitzendorf, Austria",
+    "description": "It all starts here! I learned the basics of reading, writing, and arithmetic. I also made my first friends and discovered my love for learning. The teachers were kind and supportive, and they helped me develop a strong foundation for my future education."
+  },
+  {
+    "id": 2,
+    "duration": "2015-2019",
+    "company": "Grammar School",
+    "location": "Hollabrunn, Austria",
+    "description": "Whereas all my friends went to different schools, I decided to go to a private grammar school, focussing on a well-rounded education and the additional subjects of Psychology and Philosophy. This was also the time when I developed my love for mathematics and computer science. I was fascinated by the way these subjects could be used to solve complex problems and understand the world around us. I also enjoyed the challenge of learning new concepts and applying them to real-world situations."
+  },
+  {
+    "id": 3,
+    "duration": "2019-2024",
+    "company": "HTL Krems (Secondary College for Engineering)",
+    "location": "Krems an der Donau, Austria",
+    "description": "Going to a secondary coolege for engineering was one of my best decisions in my life so far. Not only did I learn a lot about programming, databases, and web development, but I also made some of my best friends along the way. The teachers were knowledgeable and passionate about their subjects, and they encouraged us to think critically and creatively. I also had the opportunity to work on several real-world projects, which helped me develop my skills and gain valuable experience. Overall, my time at HTL Krems was a transformative experience that shaped my future career."
+  }
+]

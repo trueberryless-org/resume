@@ -2,10 +2,280 @@
   {
     "id": 1,
     "icon": {
-      "type": "lucide",
+      "type": "simple-icons",
       "name": "github"
     },
     "text": "GitHub",
-    "link": "https://github.com/louisescher/spectre"
+    "link": "https://github.com/trueberryless"
+  },
+  {
+    "id": 2,
+    "icon": {
+      "type": "simple-icons",
+      "name": "bluesky"
+    },
+    "text": "Bluesky",
+    "link": "https://bsky.app/profile/trueberryless.org"
+  },
+  {
+    "id": 3,
+    "icon": {
+      "type": "simple-icons",
+      "name": "spotify"
+    },
+    "text": "Spotify",
+    "link": "https://open.spotify.com/user/pjyifjjapvah0yoy2zvd8vx0v"
+  },
+  {
+    "id": 4,
+    "icon": {
+      "type": "simple-icons",
+      "name": "codepen"
+    },
+    "text": "CodePen",
+    "link": "https://codepen.io/trueberryless"
+  },
+  {
+    "id": 5,
+    "icon": {
+      "type": "simple-icons",
+      "name": "x"
+    },
+    "text": "X",
+    "link": "https://twitter.com/trueberryless"
+  },
+  {
+    "id": 6,
+    "icon": {
+      "type": "simple-icons",
+      "name": "reddit"
+    },
+    "text": "Reddit",
+    "link": "https://www.reddit.com/user/trueberryless/"
+  },
+  {
+    "id": 7,
+    "icon": {
+      "type": "simple-icons",
+      "name": "linkedin"
+    },
+    "text": "LinkedIn",
+    "link": "https://www.linkedin.com/in/trueberryless/"
+  },
+  {
+    "id": 8,
+    "icon": {
+      "type": "simple-icons",
+      "name": "discord"
+    },
+    "text": "Discord",
+    "link": "https://discord.com/users/trueberryless"
+  },
+  {
+    "id": 9,
+    "icon": {
+      "type": "simple-icons",
+      "name": "docker"
+    },
+    "text": "Docker Hub",
+    "link": "https://hub.docker.com/u/trueberryless"
+  },
+  {
+    "id": 10,
+    "icon": {
+      "type": "simple-icons",
+      "name": "youtube"
+    },
+    "text": "YouTube",
+    "link": "https://youtube.com/@trueberryless"
+  },
+  {
+    "id": 11,
+    "icon": {
+      "type": "simple-icons",
+      "name": "quora"
+    },
+    "text": "Quora",
+    "link": "https://www.quora.com/profile/Trueberryless"
+  },
+  {
+    "id": 12,
+    "icon": {
+      "type": "simple-icons",
+      "name": "tumblr"
+    },
+    "text": "Tumblr",
+    "link": "https://www.tumblr.com/blog/trueberryless"
+  },
+  {
+    "id": 13,
+    "icon": {
+      "type": "simple-icons",
+      "name": "monkeytype"
+    },
+    "text": "Monkeytype",
+    "link": "https://monkeytype.com/profile/trueberryless"
+  },
+  {
+    "id": 14,
+    "icon": {
+      "type": "simple-icons",
+      "name": "buymeacoffee"
+    },
+    "text": "Buy Me a Coffee",
+    "link": "http://buymeacoffee.com/trueberryless"
+  },
+  {
+    "id": 15,
+    "icon": {
+      "type": "simple-icons",
+      "name": "lichess"
+    },
+    "text": "Lichess",
+    "link": "https://lichess.org/@/trueberryless"
+  },
+  {
+    "id": 16,
+    "icon": {
+      "type": "simple-icons",
+      "name": "patreon"
+    },
+    "text": "Patreon",
+    "link": "https://www.patreon.com/trueberryless"
+  },
+  {
+    "id": 17,
+    "icon": {
+      "type": "simple-icons",
+      "name": "stackoverflow"
+    },
+    "text": "Stack Overflow",
+    "link": "https://stackoverflow.com/users/22573601/trueberryless"
+  },
+  {
+    "id": 18,
+    "icon": {
+      "type": "simple-icons",
+      "name": "leetcode"
+    },
+    "text": "LeetCode",
+    "link": "https://leetcode.com/u/trueberryless/"
+  },
+  {
+    "id": 19,
+    "icon": {
+      "type": "simple-icons",
+      "name": "twitch"
+    },
+    "text": "Twitch",
+    "link": "https://www.twitch.tv/trueberryless"
+  },
+  {
+    "id": 20,
+    "icon": {
+      "type": "simple-icons",
+      "name": "pinterest"
+    },
+    "text": "Pinterest",
+    "link": "https://at.pinterest.com/trueberryless/"
+  },
+  {
+    "id": 21,
+    "icon": {
+      "type": "simple-icons",
+      "name": "paypal"
+    },
+    "text": "PayPal",
+    "link": "https://www.paypal.com/donate/?hosted_button_id=WDQ5D2VQ6SWEC"
+  },
+  {
+    "id": 22,
+    "icon": {
+      "type": "simple-icons",
+      "name": "chessdotcom"
+    },
+    "text": "Chess.com",
+    "link": "https://www.chess.com/member/trueberryless"
+  },
+  {
+    "id": 23,
+    "icon": {
+      "type": "simple-icons",
+      "name": "lottiefiles"
+    },
+    "text": "LottieFiles",
+    "link": "https://lottiefiles.com/trueberryless"
+  },
+  {
+    "id": 24,
+    "icon": {
+      "type": "simple-icons",
+      "name": "gamebanana"
+    },
+    "text": "GameBanana",
+    "link": "https://gamebanana.com/members/1846485"
+  },
+  {
+    "id": 25,
+    "icon": {
+      "type": "simple-icons",
+      "name": "deviantart"
+    },
+    "text": "DeviantArt",
+    "link": "https://www.deviantart.com/trueberryless"
+  },
+  {
+    "id": 26,
+    "icon": {
+      "type": "simple-icons",
+      "name": "crowdin"
+    },
+    "text": "Crowdin",
+    "link": "https://community.crowdin.com/u/trueberryless/summary"
+  },
+  {
+    "id": 27,
+    "icon": {
+      "type": "simple-icons",
+      "name": "facebook"
+    },
+    "text": "Facebook",
+    "link": "https://www.facebook.com/trueberryless"
+  },
+  {
+    "id": 28,
+    "icon": {
+      "type": "simple-icons",
+      "name": "dribbble"
+    },
+    "text": "Dribbble",
+    "link": "https://dribbble.com/trueberryless"
+  },
+  {
+    "id": 29,
+    "icon": {
+      "type": "simple-icons",
+      "name": "roadmapdotsh"
+    },
+    "text": "Roadmap.sh",
+    "link": "https://roadmap.sh/u/trueberryless"
+  },
+  {
+    "id": 30,
+    "icon": {
+      "type": "simple-icons",
+      "name": "kofi"
+    },
+    "text": "Ko-fi",
+    "link": "https://ko-fi.com/trueberryless"
+  },
+  {
+    "id": 31,
+    "icon": {
+      "type": "simple-icons",
+      "name": "duolingo"
+    },
+    "text": "Doulingo",
+    "link": "https://www.duolingo.com/profile/trueberryless"
   }
 ]

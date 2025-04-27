@@ -54,8 +54,8 @@ const body = replaceIDs(renderData.body);
 let renderAttribsHTML =
 	body.indexOf('xlink:') === -1 ? '' : ' xmlns:xlink="http://www.w3.org/1999/xlink"';
 
-for (const attr in attributes) {
-	renderAttribsHTML += ` ${attr}="${attributes[attr]}"`;
+for (const attr in { ...renderData.attributes, ...attributes }) {
+	renderAttribsHTML += ` ${attr}="${attributes[attr] ?? renderData.attributes[attr]}"`;
 }
 
 const svg = `<svg xmlns="http://www.w3.org/2000/svg"${renderAttribsHTML}>${body}</svg>`;

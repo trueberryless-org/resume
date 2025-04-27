@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "icon": {
+      "type": "simple-icons",
+      "name": "astro"
+    },
+    "category": "Frontend",
+    "skills": "HTML, CSS, JavaScript, TypeScript, Astro, Vite, React, Next"
+  },
+  {
+    "id": 2,
+    "icon": {
+      "type": "simple-icons",
+      "name": "dotnet"
+    },
+    "category": "Backend",
+    "skills": "C# (.NET), REST, GraphQL, PostgreSQL, MySQL, MongoDB, neo4j"
+  },
+  {
+    "id": 3,
+    "icon": {
+      "type": "simple-icons",
+      "name": "kubernetes"
+    },
+    "category": "Deployment",
+    "skills": "Git, GitHub Actions, Docker, Kubernetes (k3s), ArgoCD, Vitest"
+  }
+]

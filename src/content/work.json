@@ -1,9 +1,30 @@
 [
   {
     "id": 1,
-    "duration": "2024 - present",
-    "company": "Astro Community",
-    "title": "Astro Theme",
-    "description": "Existing as an Astro theme for anyone to use."
+    "duration": "2022",
+    "company": "Hospital",
+    "location": "Hollabrunn, Austria",
+    "description": "In 2022, I completed a 4-week internship at the Hospital Hollabrunn. I worked in the IT department, where I was responsible for setting up and maintaining the hospital's computer systems. I also assisted with troubleshooting and resolving technical issues."
+  },
+  {
+    "id": 2,
+    "duration": "2023",
+    "company": "MBIT Solutions GmbH",
+    "location": "Diendorf, Austria",
+    "description": "My favorite internship was at MBIT Solutions GmbH, where I worked as a software developer. I was involved in a project where some college friends and I developed an eCommerce platform with the nopCommerce framework, which was amazingly adaptable via a plugin system. This company also supported a healthy work-life balance and many goodies like free drinks and fruits."
+  },
+  {
+    "id": 3,
+    "duration": "2024",
+    "company": "Red Cross",
+    "location": "Krems an der Donau, Austria",
+    "description": "After completing the college, I started working for the worldwide well-known independent company Red Cross and Crescent. I joined as a Civilian servent because I didn't want to join the army. In these 9 months, I learned a lot about other people's lives and how to help people in need. I liked working there so much that I decided to stay and volunteer."
+  },
+  {
+    "id": 4,
+    "duration": "2025",
+    "company": "Fronius International GmbH",
+    "location": "Vienna, Austria",
+    "description": "Since 2025, I have been working at Fronius International GmbH as a software developer. I am involved in the development of a new software platform for the company's solar energy products. This platform is designed to be highly scalable and flexible, allowing for easy integration with other systems. I am also responsible for maintaining and improving the existing software systems."
   }
 ]
