@@ -29,8 +29,6 @@ yarn create astro --template louisescher/spectre
 - Auto-generated sitemap
 - Markdown / MDX Support
 - Builds on content collections
-- Search powered by [pagefind](https://pagefind.app)
-- Comments powered by [giscus](https://giscus.app) (can be turned off)
 - More!
 
 ## Curious?
