@@ -1,5 +1,7 @@
 ![Spectre, a terminal-inspired theme for Astro.](./images/README.png)
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/1a245f1f-6735-4438-a87b-b000d22d3bfe/deploy-status)](https://app.netlify.com/sites/trueberryless-resume/deploys)
+
 Spectre is a terminal-inspired theme for Astro, built using TypeScript and Astro.
 
 ## Getting Started
