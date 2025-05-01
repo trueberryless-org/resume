@@ -7,9 +7,13 @@ import spectre from "./package/src";
 
 import { spectreDark } from "./src/ec-theme";
 
+import netlify from "@astrojs/netlify";
+
 // https://astro.build/config
 export default defineConfig({
   site: "https://resume.trueberryless.org",
+  output: "static",
+
   integrations: [
     expressiveCode({
       themes: [spectreDark],
@@ -28,4 +32,6 @@ export default defineConfig({
       },
     }),
   ],
+
+  adapter: netlify(),
 });
