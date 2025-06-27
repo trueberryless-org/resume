@@ -131,5 +131,18 @@ const { Content: About } = await render(about!);
 				))}
 			</div>
 		</Card>
+    <Card>
+			<div class="header-container">
+				<Icon type='lucide' name="file-user" width={24} height={24} class='glow-icon' />
+				<h2>Curriculum Vitae PDFs</h2>
+			</div>
+			<div class="prose">
+				<p>If you want to explore my experience offline, you are free to download these PDFs!</p>
+        <ul>
+          <li><a href="/resume.pdf">Minimal distractions, just the facts — lightweight & easy to skim</a></li>
+          <li><a href="/curriculum-vitae.pdf">Bold aesthetics, creative and moody — for a visual deep dive</a></li>
+        </ul>
+			</div>
+		</Card>
 	</div>
 </Layout>
